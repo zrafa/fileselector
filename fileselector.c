@@ -1,6 +1,7 @@
-/*      fileselector - A simple file selector for the Jlime project.
+/*
+ *  fileselector - A simple file selector for the Jlime project.
  *      
- *      Copyright 2010 Rafael Ignacio Zurita <rizurita@yahoo.com>
+ *  Copyright 2010-2013 Rafael Ignacio Zurita <rafaelignacio.zurita@gmail.com>
  *      
  *      This program is free software; you can redistribute it and/or modify
  *      it under the terms of the GNU General Public License as published by

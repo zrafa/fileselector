@@ -1,0 +1,66 @@
+1.3.2  Alex Ferguson  <thoughtmonster@gmail.com>
+
+ * Changed from semicolon-seperated list to comma-seperated list.
+ 
+ * Made font-loading behaviour a bit more tolerant.
+
+1.3.1  Alex Ferguson  <thoughtmonster@gmail.com>
+
+ * Fixed the gray background issue for when the window size does not
+   entirely match the row heights.
+
+ * Cleaned up source code, making it more readable and (hopefully)
+   efficient.
+
+ * Fixed filter matching to correctly match extensions.
+
+1.3  Alex Ferguson  <thoughtmonster@gmail.com>
+
+ * Fixed a couple of bugs, including the annoying screen flicker
+   at startup.
+
+1.2 Alex Ferguson  <thoughtmonster@gmail.com>
+
+ * Added support for command-line options. Options implemented are:
+   -d: Start fileselector in selected directory.
+   -f: Only show files matching the colon-seperated filter list.
+
+   The filter list is colon-seperated with each string parsed and
+   stored in the filter_list array. The array is then recursed over
+   in the file_check filter.
+
+ * Added support for toggling the filter by pressing the 'f' key.
+
+ * Made fileselector use the native screen screen dimensions instead
+   of the hardcoded 320x240 ones.
+
+ * Made fileselector resizable, with the number of rows adapting
+   to the available window height.
+
+ * Modified 'fileselector-bg' to use the native screen dimensions instead
+   of the hardcoded 320x240 ones.
+
+ * Some bug fixes and cosmetic fixes.
+
+1.1  Alex Ferguson  <thoughtmonster@gmail.com>
+
+ * Added more key definitions, backspace, page up/down etc.
+
+ * Added support for not showing hidden files and folders and
+   toggling their visibility with the 'h' key.
+
+ * Modified fill_fname_array for folders-first by calling scandir
+   twice, once with the 'directory_check' filter and once with the
+   'file_check' filter, appending their results.
+
+ * Added 'fileselector-bg', which displays a black window usable as a
+   simple background for scripts that use fileselector. Amazing, eh?
+
+1.0  Alex Ferguson  <thoughtmonster@gmail.com>
+
+ * Cleaned up code, renamed definitions in Spanish to English.
+
+ * Slight visual overhaul, moved current dir name from the window to
+   the window title (which looks cool in Muffinman). Colors changed.
+
+ * Enable key repeating in SDL.
